@@ -5,7 +5,7 @@ var React = require('react');
 var Test = React.createClass({
   render: function() {
     return (
-      <span>Hello World!</span>
+      <span className="testClass">Hello World!</span>
     );
   }
 });
